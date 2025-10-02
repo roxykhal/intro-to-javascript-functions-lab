@@ -83,7 +83,13 @@ const basicCalculator = (num1, num2, operation) => {
 
     if(operation === 'subtract') {
         return num1 - num2;
+    } else if (operation === 'add') {
+        return num1 + num2;
+    }  else if (operation === 'multiply') {
+        return num1 * num2;
+    }  else (operation === 'divide'); {
+        return num1 / num2;
     }
-};
+ };
 
-console.log(basicCalculator(10, 6, 'subtract'));
+console.log(basicCalculator(10, 6, 'add'));
